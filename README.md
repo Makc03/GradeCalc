@@ -24,5 +24,5 @@ so just use the program as intended and all is well with life :)
 
 also in order for the intended data to save in the db;
 you need to hit the calculate button, then save;
-or else either the last thing you put in there wills= save or nothing will
+or else either the last thing you put in there will save or nothing will
 
