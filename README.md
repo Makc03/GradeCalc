@@ -16,7 +16,7 @@
 
 ## More in-depth / General Description
 
-###### User Inputs
+###### **User Inputs**
 - The user will input the subject, points scored out of the most points possible
 - When the user hits the "Calculate" Button, it will take the two inputs and divide them to get the total 
 - there is also a checkbox for if you want the total to be rounded up;
