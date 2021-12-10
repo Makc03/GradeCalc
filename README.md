@@ -16,12 +16,11 @@
 
 ## More in-depth / General Description
 
-This program takes the user input;
-for the Subject that is being graded, 
-the score the user got out of the total score;
-and calculates the grade and shows it as a percentage when a button is hit ;
-there is also a checkbox for if you want the total to be rounded up;
-(ex. 87.3% --> 87%, 78.8% --> 79%)
+###### User Inputs
+- The user will input the subject, points scored out of the most points possible
+- When the user hits the "Calculate" Button, it will take the two inputs and divide them to get the total 
+- there is also a checkbox for if you want the total to be rounded up;
+- 1. (ex. 87.3% --> 87%, 78.8% --> 79%)
 
 there is a separate button that saves the data and results to a database;
 in this  database, it stores the subject,
