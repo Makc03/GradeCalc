@@ -3,6 +3,23 @@ Mac Armstrong
 
 Grade Calculator
 
+# Features
+
+- User inputs Necessary Data 
+  1. Subject
+   2. Score Achieved
+    3. Best Possible Score
+- "Calculate" Button - when hit, calculates total based on user inputs
+- Round total if user wants to with checkbox 
+- Saves info to DataBase if user wants to
+
+# Issues
+
+- Only issue is that you need to calculate after inputting data
+- If not, it will either save nothing, or whatever was calculated last time 
+
+# More in-depth / General Description
+
 This program takes the user input;
 for the Subject that is being graded, 
 the score the user got out of the total score;
@@ -26,17 +43,6 @@ so just use the program as intended and all is well with life :)
 also in order for the intended data to save in the db;
 you need to hit the calculate button, then save;
 or else either the last thing you put in there will save or nothing will
-
-# Features
-
-- User inputs Necessary Data 
-  1. Subject
-   2. Score Achieved
-    3. Best Possible Score
-- "Calculate" Button - when hit, calculates total based on user inputs
-- Round total if user wants to with checkbox 
-- Saves info to DataBase if user wants to
-
 
 # Flow Chart
 ![alt text](https://i.imgur.com/CwVZnZP.jpg)
