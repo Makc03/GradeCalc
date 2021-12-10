@@ -29,7 +29,8 @@
   1. The Subject
   2. Score Achieved
   3. Best Possible Score 
-  4. Total  5. Whether or not the total was rounded or not 
+  4. Total  
+  5. Whether or not the total was rounded or not 
 - Saving is merely on option, just in case the user does not want to 
 
 ###### **Exceptions**
