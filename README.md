@@ -1,5 +1,5 @@
-## GradeCalc
-# Features
+# GradeCalc
+## Features
 
 - User inputs Necessary Data 
   1. Subject
@@ -9,12 +9,12 @@
 - Round total if user wants to with checkbox 
 - Saves info to DataBase if user wants to
 
-# Issues
+## Issues
 
 - Only issue is that you need to calculate after inputting data
 - If not, it will either save nothing, or whatever was calculated last time 
 
-# More in-depth / General Description
+## More in-depth / General Description
 
 This program takes the user input;
 for the Subject that is being graded, 
@@ -40,8 +40,8 @@ also in order for the intended data to save in the db;
 you need to hit the calculate button, then save;
 or else either the last thing you put in there will save or nothing will
 
-# Flow Chart
+## Flow Chart
 ![alt text](https://i.imgur.com/CwVZnZP.jpg)
 
-# Mock up
+## Mock up
 ![alt text](https://i.imgur.com/wVjwxf9.jpg)
