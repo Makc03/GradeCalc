@@ -1,5 +1,6 @@
 # GradeCalc
 Mac Armstrong
+
 Grade Calculator
 
 This program takes the user input;
