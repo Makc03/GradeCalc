@@ -1,8 +1,4 @@
-# GradeCalc
-Mac Armstrong
-
-Grade Calculator
-
+## GradeCalc
 # Features
 
 - User inputs Necessary Data 
