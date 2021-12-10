@@ -27,12 +27,12 @@ also in order for the intended data to save in the db;
 you need to hit the calculate button, then save;
 or else either the last thing you put in there will save or nothing will
 
-#Features
+# Features
 
 - User inputs Necessary Data 
--   1. Subject
--   2. Score Achieved
--   3. Best Possible Score
+  1. Subject
+  2. Score Achieved
+  3. Best Possible Score
 - "Calculate" Button - when hit, calculates total based on user inputs
 - Round total if user wants to with checkbox 
 - Saves info to DataBase if user wants to
