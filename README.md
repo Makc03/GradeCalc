@@ -1,6 +1,6 @@
-# Mac Armstrong
 # GradeCalc
-grade calculator
+Mac Armstrong
+Grade Calculator
 
 This program takes the user input;
 for the Subject that is being graded, 
@@ -26,3 +26,8 @@ also in order for the intended data to save in the db;
 you need to hit the calculate button, then save;
 or else either the last thing you put in there will save or nothing will
 
+# Flow Chart
+![alt text](https://imgur.com/a/PyHDmo9)
+
+# Mock up
+![alt text](https://imgur.com/a/sBkXxLb)
