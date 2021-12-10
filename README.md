@@ -26,11 +26,10 @@
 
 - There will be a button that the user can hit if they want to save it to a database
 - The data that will be saved will be
-- 1. The Subject
-- 2. Score Achieved
-- 3. Best Possible Score 
-- 4. Total 
-- 5. Whether or not the total was rounded or not 
+  1. The Subject
+  2. Score Achieved
+  3. Best Possible Score 
+  4. Total  5. Whether or not the total was rounded or not 
 - Saving is merely on option, just in case the user does not want to 
 
 ###### **Exceptions**
