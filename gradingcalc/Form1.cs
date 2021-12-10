@@ -65,7 +65,6 @@ namespace gradingcalc
                 LBItms.Items.Add("Subject: " + TBSubj.Text);
                 LBItms.Items.Add("Score: " + (TBRec.Text + " / " + TBPoss.Text));
                 LBItms.Items.Add("Final Total: " + (Total) + "%");
-
             }
         }
 
@@ -73,23 +72,39 @@ namespace gradingcalc
         {
             // saves all calculated elements to db 
 
-            PersonModel p = new PersonModel();
-
-            p.Subject = TBSubj.Text;
-            p.Achieved = Convert.ToDouble(TBRec.Text);
-            p.bTotal = Convert.ToDouble(TBPoss.Text) ;
-
-            if (isRounded == false) // saves rounded total based on if rounded or not 
-            { // not rounded
-                p.rTotal = (Convert.ToDouble(TBRec.Text) / Convert.ToDouble(TBPoss.Text)) * 100;
+            // if user did not fill a box, error message will show up 
+            if (TBSubj.Text == "" || TBRec.Text == "" || TBPoss.Text == "")
+            {
+                MessageBox.Show("One or more of the textboxes have not been filled out\nPlease try again", "Invalid Inputs",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else { // rounded
-                p.rTotal = (Math.Round(Convert.ToDouble(TBRec.Text) / Convert.ToDouble(TBPoss.Text), 2)) * 100;
+            else // the program will run as intended
+            {
+                PersonModel p = new PersonModel();
+
+                p.Subject = TBSubj.Text;
+                p.Achieved = Convert.ToDouble(TBRec.Text);
+                p.bTotal = Convert.ToDouble(TBPoss.Text);
+                { 
+                    if (isRounded == false) // saves rounded total based on if rounded or not 
+                    { // not rounded
+                        p.rTotal = (Convert.ToDouble(TBRec.Text) / Convert.ToDouble(TBPoss.Text)) * 100;
+                    }
+                    else
+                    { // rounded
+                        p.rTotal = (Math.Round(Convert.ToDouble(TBRec.Text) / Convert.ToDouble(TBPoss.Text), 2)) * 100;
+                    }
+                }
+                p.isRound = isRounded.ToString();
+
+                SqliteDataAccess.SavePerson(p);
             }
+        }
 
-            p.isRound = isRounded.ToString();
-
-            SqliteDataAccess.SavePerson(p);
+        private void button1_Click(object sender, EventArgs e)
+        { // "easter egg" just ingore this 
+            MessageBox.Show("Bruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\nBruh\n ", "Bruh",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
