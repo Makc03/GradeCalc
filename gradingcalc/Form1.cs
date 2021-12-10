@@ -1,4 +1,4 @@
-﻿// Mac Armstrong
+// Mac Armstrong
 // Grade Calculator App
 // 12/14/21
 
@@ -10,7 +10,7 @@ using System.Windows.Forms;
 * calc total X
 * display subject , points got , points possible , total on listbox X
 * make data base to store data for subject, points scored, points possible, total X
-* apply db to program 
+* apply db to program X
 */
 
 namespace gradingcalc
@@ -79,11 +79,11 @@ namespace gradingcalc
             p.Achieved = Convert.ToDouble(TBRec.Text);
             p.bTotal = Convert.ToDouble(TBPoss.Text) ;
 
-            if (isRounded == false) // saves rounded / unrounded totals 
-            {
+            if (isRounded == false) // saves rounded total based on if rounded or not 
+            { // not rounded
                 p.rTotal = (Convert.ToDouble(TBRec.Text) / Convert.ToDouble(TBPoss.Text)) * 100;
             }
-            else {
+            else { // rounded
                 p.rTotal = (Math.Round(Convert.ToDouble(TBRec.Text) / Convert.ToDouble(TBPoss.Text), 2)) * 100;
             }
 
