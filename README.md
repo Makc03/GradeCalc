@@ -27,7 +27,7 @@ you need to hit the calculate button, then save;
 or else either the last thing you put in there will save or nothing will
 
 # Flow Chart
-![alt text](https://imgur.com/a/PyHDmo9)
+![alt text](https://i.imgur.com/CwVZnZP.jpg)
 
 # Mock up
-![alt text](https://imgur.com/a/sBkXxLb)
+![alt text](https://i.imgur.com/wVjwxf9.jpg)
