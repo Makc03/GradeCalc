@@ -1,4 +1,4 @@
-﻿// Mac Armstrong
+// Mac Armstrong
 // Grade Calculator App
 // 12/14/21
 
@@ -23,8 +23,6 @@ namespace gradingcalc
         }
 
         public bool isRounded = false;
-
-
         public void btnCalc_Click(object sender, EventArgs e)
         {
             LBItms.Items.Clear(); // clears list box so that items dont stack after every click 
