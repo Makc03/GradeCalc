@@ -1,4 +1,3 @@
-﻿
 namespace gradingcalc
 {
     partial class Form1
@@ -51,7 +50,7 @@ namespace gradingcalc
             this.button1.Location = new System.Drawing.Point(-9, -9);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(312, 89);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 9;
             this.button1.Text = "Grading Calculator  ";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -74,7 +73,7 @@ namespace gradingcalc
             this.btnCalc.Location = new System.Drawing.Point(-4, 265);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(282, 45);
-            this.btnCalc.TabIndex = 7;
+            this.btnCalc.TabIndex = 4;
             this.btnCalc.Text = "Calculate Total";
             this.btnCalc.UseVisualStyleBackColor = false;
             this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
@@ -86,7 +85,7 @@ namespace gradingcalc
             this.CBRound.Location = new System.Drawing.Point(171, 191);
             this.CBRound.Name = "CBRound";
             this.CBRound.Size = new System.Drawing.Size(102, 17);
-            this.CBRound.TabIndex = 6;
+            this.CBRound.TabIndex = 3;
             this.CBRound.Text = "Round the toal?";
             this.CBRound.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.CBRound.UseVisualStyleBackColor = true;
@@ -98,7 +97,7 @@ namespace gradingcalc
             this.LBItms.Location = new System.Drawing.Point(9, 138);
             this.LBItms.Name = "LBItms";
             this.LBItms.Size = new System.Drawing.Size(148, 121);
-            this.LBItms.TabIndex = 7;
+            this.LBItms.TabIndex = 10;
             // 
             // TBSubj
             // 
@@ -107,7 +106,7 @@ namespace gradingcalc
             this.TBSubj.Location = new System.Drawing.Point(12, 102);
             this.TBSubj.Name = "TBSubj";
             this.TBSubj.Size = new System.Drawing.Size(100, 20);
-            this.TBSubj.TabIndex = 1;
+            this.TBSubj.TabIndex = 0;
             // 
             // btnSave
             // 
@@ -117,7 +116,7 @@ namespace gradingcalc
             this.btnSave.Location = new System.Drawing.Point(166, 214);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(105, 45);
-            this.btnSave.TabIndex = 8;
+            this.btnSave.TabIndex = 5;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -139,7 +138,7 @@ namespace gradingcalc
             this.TBRec.Location = new System.Drawing.Point(166, 102);
             this.TBRec.Name = "TBRec";
             this.TBRec.Size = new System.Drawing.Size(100, 20);
-            this.TBRec.TabIndex = 9;
+            this.TBRec.TabIndex = 1;
             // 
             // label3
             // 
@@ -158,7 +157,7 @@ namespace gradingcalc
             this.TBPoss.Location = new System.Drawing.Point(166, 154);
             this.TBPoss.Name = "TBPoss";
             this.TBPoss.Size = new System.Drawing.Size(100, 20);
-            this.TBPoss.TabIndex = 11;
+            this.TBPoss.TabIndex = 2;
             // 
             // Form1
             // 
