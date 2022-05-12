@@ -50,4 +50,4 @@
 ![alt text](https://i.imgur.com/CwVZnZP.jpg)
 
 ## Mock up
-![alt text](https://i.imgur.com/wVjwxf9.jpg)
+![alt text](https://i.imgur.com/aX3KRG3.png)
